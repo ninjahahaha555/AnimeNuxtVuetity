@@ -33,7 +33,7 @@
           class="mb-3 ml-4"
         >
           <v-row>
-            <v-col md="4">
+            <v-col md="4" align="center">
               <nuxt-link :to="{ name: 'product-id', params: { id: data } }">
                 <v-img :src="data.image_url" />
               </nuxt-link>

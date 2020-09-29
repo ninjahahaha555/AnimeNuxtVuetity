@@ -1,5 +1,5 @@
 <template>
-  <v-app class="white">
+  <v-app dark>
     <v-main>
       <v-container>
         <nuxt />
@@ -9,7 +9,7 @@
       :absolute="!fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; {{ new Date().getFullYear() }}  Create by Thanawat Samkeam 6104101338</span>
     </v-footer>
   </v-app>
 </template>

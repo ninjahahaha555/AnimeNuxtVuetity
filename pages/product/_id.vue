@@ -14,20 +14,16 @@
             <h3>Rating : {{ this.$route.params.id.rated }}</h3>
             <h3>Start Date : {{ this.$route.params.id.start_date }}</h3>
             <h3>End Date : {{ this.$route.params.id.end_date }}</h3>
-            <h3>Ref : {{ this.$route.params.id.url }}</h3>
+            <a
+              style="text-decoration: none;"
+              target="_blank"
+              :href="this.$route.params.id.url"
+            >
+              <h3>Ref : {{ this.$route.params.id.url }}</h3>
+            </a>
           </div>
         </v-col>
       </v-row>
     </v-card>
   </div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>

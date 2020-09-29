@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-14">
+  <div class="mt-10">
     <v-card align="center" justify="center">
       <v-row>
         <v-col md="4">
@@ -11,7 +11,7 @@
             <h3>---------- {{ this.$route.params.id.synopsis }}</h3>
             <h3>Episode : {{ this.$route.params.id.episodes }}</h3>
             <h3>Score : {{ this.$route.params.id.score }} / 10</h3>
-            <h3>Rating : {{ this.$route.params.id.rated }}</h3>
+            <h3>Rated : {{ this.$route.params.id.rated }}</h3>
             <h3>Start Date : {{ this.$route.params.id.start_date }}</h3>
             <h3>End Date : {{ this.$route.params.id.end_date }}</h3>
             <a

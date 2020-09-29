@@ -62,7 +62,7 @@ export default {
     return {
       animeData: '',
       textSearch: '',
-      perPage: 6,
+      perPage: 9,
       currentPage: 1,
       run: false
     }
